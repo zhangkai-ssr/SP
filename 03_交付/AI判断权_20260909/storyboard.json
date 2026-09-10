@@ -1,0 +1,115 @@
+{
+  "title": "AI最危险的，不是答错",
+  "size": [1080, 1920],
+  "fps": 30,
+  "engine": "edge",
+  "bgm": "bgm/ambient.wav",
+  "tail_pad": 0.45,
+  "voices": {
+    "旁白": {
+      "edge": "zh-CN-YunyangNeural",
+      "offline_rate": 155,
+      "color": [225, 238, 248]
+    }
+  },
+  "scenes": [
+    {
+      "type": "title",
+      "image": "01_hook.png",
+      "dur": 2.6,
+      "main": "AI最危险的\n不是答错",
+      "sub": "而是让你停止判断"
+    },
+    {
+      "image": "01_hook.png",
+      "speaker": "旁白",
+      "motion": "zoom_in",
+      "text": "它给得太快\n太完整\n让你忘了问\n这是真的吗"
+    },
+    {
+      "image": "02_speed.png",
+      "speaker": "旁白",
+      "motion": "pan_right",
+      "text": "哈佛团队测试了\n758名咨询顾问\n面对AI擅长的任务\n他们确实更强"
+    },
+    {
+      "image": "02_speed.png",
+      "speaker": "旁白",
+      "motion": "zoom_out",
+      "text": "速度提升超过25%\n人评质量提升超过40%\n完成的任务\n也多了12%"
+    },
+    {
+      "image": "03_frontier.png",
+      "speaker": "旁白",
+      "motion": "zoom_in",
+      "text": "但任务一旦越过\nAI的能力边界\n使用AI的人\n反而更容易答错"
+    },
+    {
+      "image": "04_crack.png",
+      "speaker": "旁白",
+      "motion": "pan_left",
+      "text": "答对的概率\n低了19个百分点\n因为答案看起来\n太像答案"
+    },
+    {
+      "image": "04_crack.png",
+      "speaker": "旁白",
+      "motion": "zoom_in",
+      "text": "流畅 完整 自信\n却可能把你带过\n一道看不见的裂缝"
+    },
+    {
+      "image": "05_verify.png",
+      "speaker": "旁白",
+      "motion": "zoom_out",
+      "text": "微软又调查了\n319名知识工作者\n和936个\n真实使用案例"
+    },
+    {
+      "image": "05_verify.png",
+      "speaker": "旁白",
+      "motion": "pan_right",
+      "text": "结果显示\n对AI越有信心\n与更少的批判性思考\n存在关联"
+    },
+    {
+      "image": "06_three_questions.png",
+      "speaker": "旁白",
+      "motion": "zoom_in",
+      "text": "真正会思考的人\n并不排斥AI\n只是把判断权\n留在自己手里"
+    },
+    {
+      "image": "06_three_questions.png",
+      "speaker": "旁白",
+      "motion": "zoom_out",
+      "text": "下次使用AI前\n先问三个问题"
+    },
+    {
+      "image": "03_frontier.png",
+      "speaker": "旁白",
+      "motion": "pan_left",
+      "text": "第一\n这是AI擅长的任务\n还是我只是图快"
+    },
+    {
+      "image": "04_crack.png",
+      "speaker": "旁白",
+      "motion": "pan_right",
+      "text": "第二\n如果它错了\n代价是什么"
+    },
+    {
+      "image": "07_judgment.png",
+      "speaker": "旁白",
+      "motion": "zoom_in",
+      "text": "第三\n我能不能独立复述\n最关键的推理"
+    },
+    {
+      "image": "07_judgment.png",
+      "speaker": "旁白",
+      "motion": "zoom_out",
+      "text": "用AI交付\n是效率\n能解释 能质疑 能负责\n才是能力"
+    },
+    {
+      "type": "title",
+      "image": "07_judgment.png",
+      "dur": 4.0,
+      "main": "别把判断权\n一起外包",
+      "sub": "保存这三问，下一次交付前用一次"
+    }
+  ]
+}

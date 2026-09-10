@@ -1,0 +1,55 @@
+{
+  "title": "存在主义的回归",
+  "size": [1080, 1920],
+  "fps": 30,
+  "engine": "offline",
+  "_engine_note": "offline=本机离线语音(免联网) ; edge=微软神经语音(需联网/代理) ; none=无配音只字幕",
+  "_clip_note": "镜头可同时写 clip(首选视频)+image(占位回退)；clip文件在assets\\manju\\存在就用视频，不在就用image出占位",
+  "bgm": "bgm/ambient.wav",
+  "tail_pad": 0.6,
+  "voices": {
+    "旁白": {"edge": "zh-CN-YunyangNeural", "offline_rate": 150, "color": [235, 232, 222]},
+    "内心": {"edge": "zh-CN-XiaoxiaoNeural", "offline_rate": 168, "color": [180, 205, 255]},
+    "哲人": {"edge": "zh-CN-YunxiNeural",    "offline_rate": 140, "color": [255, 224, 170]}
+  },
+  "scenes": [
+    {"type": "title", "image": "02.png", "dur": 3.4,
+     "main": "存在主义的回归", "sub": "当生活被填满，我们却越来越空"},
+
+    {"clip": "01.mp4", "image": "01.png", "speaker": "旁白", "motion": "zoom_in",
+     "text": "这是一个\n人人都能用AI\n造出一部短剧的时代"},
+
+    {"image": "02.png", "speaker": "旁白", "motion": "zoom_out",
+     "text": "技术\n绝对不是问题"},
+
+    {"image": "09.png", "speaker": "内心", "motion": "zoom_in",
+     "text": "可为什么\n越做\n越觉得空"},
+
+    {"image": "05.png", "speaker": "旁白", "motion": "pan_left",
+     "text": "因为在这个时代\n人人\n都找不到存在感"},
+
+    {"image": "03.png", "speaker": "哲人", "motion": "pan_right",
+     "text": "萨特说\n存在\n先于本质"},
+
+    {"image": "04.png", "speaker": "旁白", "motion": "zoom_in",
+     "text": "你不是被定义\n才存在\n而是先存在\n再定义自己"},
+
+    {"clip": "06.mp4", "image": "06.png", "speaker": "哲人", "motion": "zoom_out",
+     "text": "加缪望着\n推石上山的西西弗斯\n说\n要想象他是幸福的"},
+
+    {"image": "07.png", "speaker": "旁白", "motion": "pan_right",
+     "text": "真正打动人的内容\n从不是技术堆出来的"},
+
+    {"image": "08.png", "speaker": "旁白", "motion": "zoom_in",
+     "text": "而是它让你停下来\n问自己一个问题"},
+
+    {"image": "02.png", "speaker": "内心", "motion": "zoom_out",
+     "text": "我\n究竟为何而活"},
+
+    {"clip": "10.mp4", "image": "10.png", "speaker": "旁白", "motion": "zoom_in",
+     "text": "当镜头照见的\n不再是流量\n而是存在\n这就是回归"},
+
+    {"type": "title", "image": "10.png", "dur": 4.2,
+     "main": "在无意义里\n创造意义", "sub": "点赞 · 关注，陪你在喧嚣里保持清醒"}
+  ]
+}

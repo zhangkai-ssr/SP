@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor / operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.toml
+
+# Generated output and caches
+01_工具/文字卡片生成器/output/
+02_项目/*/output/_tmp/
+02_项目/*/output/*.mp4
+02_项目/*/output/*.wav
+02_项目/*/output/*.mp3
+
+# Local research clones can be restored from the commit IDs in the report.
+05_研究参考/**/repos/
+
+# Historical binaries and disposable intermediate files are kept locally only.
+90_归档/*
+!90_归档/README.md
+

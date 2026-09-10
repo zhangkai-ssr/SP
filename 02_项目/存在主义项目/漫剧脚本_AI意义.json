@@ -1,0 +1,59 @@
+{
+  "title": "AI完成一切，人类还剩什么",
+  "size": [1080, 1920],
+  "fps": 30,
+  "engine": "offline",
+  "bgm": "bgm/ambient.wav",
+  "tail_pad": 0.6,
+  "voices": {
+    "旁白": {"edge": "zh-CN-YunyangNeural", "offline_rate": 150, "color": [235, 232, 222]},
+    "内心": {"edge": "zh-CN-XiaoxiaoNeural", "offline_rate": 168, "color": [180, 205, 255]},
+    "哲人": {"edge": "zh-CN-YunxiNeural",    "offline_rate": 140, "color": [255, 224, 170]}
+  },
+  "scenes": [
+    {"type": "title", "image": "02.png", "dur": 3.4,
+     "main": "AI完成一切\n人类还剩什么", "sub": "一场关于「过程」的辩护"},
+
+    {"image": "real_hand_orange.png", "speaker": "旁白", "motion": "zoom_in",
+     "text": "AI能做的\n越来越多\n你要什么\n它秒给你"},
+
+    {"image": "03.png", "speaker": "旁白", "motion": "zoom_out",
+     "text": "高效 快捷 低成本\n一步到位"},
+
+    {"image": "real_tree.png", "speaker": "内心", "motion": "zoom_in",
+     "text": "可为什么\n越用\n越觉得空"},
+
+    {"image": "03.png", "speaker": "哲人", "motion": "pan_right",
+     "text": "AI是一种极端逻辑\n只要结果\n不要过程"},
+
+    {"image": "real_hand_forest.png", "speaker": "旁白", "motion": "pan_left",
+     "text": "它把人\n当成一种\n功能的载体"},
+
+    {"image": "06.png", "speaker": "哲人", "motion": "zoom_out",
+     "text": "可被取代的\n永远是功能\n而不是人"},
+
+    {"image": "05.png", "speaker": "旁白", "motion": "zoom_in",
+     "text": "以前是制度逼你高效\n现在是你\n自己逼自己"},
+
+    {"image": "06.png", "speaker": "旁白", "motion": "pan_right",
+     "text": "问AI就像打激素\n跳过了\n所有痛苦的生长"},
+
+    {"image": "real_forest.png", "speaker": "内心", "motion": "zoom_out",
+     "text": "事情都办完了\n活着的痕迹\n却消失了"},
+
+    {"image": "04.png", "speaker": "哲人", "motion": "zoom_in",
+     "text": "意义从不在结果\n而在你\n慢慢走过的过程"},
+
+    {"image": "real_smoke.png", "speaker": "旁白", "motion": "pan_left",
+     "text": "那个会犯错\n会疼痛的你\n才是活着的证据"},
+
+    {"image": "08.png", "speaker": "哲人", "motion": "zoom_in",
+     "text": "真正的解放\n不是比机器有用\n而是拒绝\n活成一台机器"},
+
+    {"image": "real_tree_wide.png", "speaker": "内心", "motion": "zoom_out",
+     "text": "太好了\n还好\n我是个笨蛋"},
+
+    {"type": "title", "image": "10.png", "dur": 4.2,
+     "main": "还好，我是笨蛋", "sub": "点赞·关注，夺回属于你的「过程」"}
+  ]
+}
