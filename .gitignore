@@ -10,6 +10,9 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Isolated feature worktrees
+.WORKTREE/
+
 # Secrets and local configuration
 .env
 .env.*
@@ -29,4 +32,3 @@ config.toml
 # Historical binaries and disposable intermediate files are kept locally only.
 90_归档/*
 !90_归档/README.md
-
