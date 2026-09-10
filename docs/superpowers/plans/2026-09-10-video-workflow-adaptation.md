@@ -102,3 +102,31 @@ Pop-Location
 Expected: no whitespace errors; both command-line entry points exit successfully.
 
 Also verify every Markdown link target referenced by `README.md` and `AGENTS.md`, confirm `.WORKTREE/` is ignored, and review the final diff for firmware-only terms.
+
+### Task 4: Resolve independent review findings
+
+**Files:**
+- Modify: `README.md`
+- Modify: `AGENTS.md`
+- Modify: `plan.md`
+- Modify: `.gitignore`
+
+**Interfaces:**
+- Consumes: the first independent review of the complete workflow draft.
+- Produces: worktree-safe commands, complete cache ignores, an actual-remote Git baseline, a large-media policy, and a full delivery-package gate.
+
+- [x] **Step 1: Make commands worktree-safe**
+
+Replace hard-coded `D:\sp` run commands with paths relative to the current repository root and keep the source project in `02_项目` when promoting a delivery.
+
+- [x] **Step 2: Close cache and Git-baseline gaps**
+
+Ignore project `work/` and `_tmp/` paths. Require fetch before branching, review against `origin/main...HEAD`, distinguish Git publication authorization from video publication, and prove local/tracking/remote synchronization after merge.
+
+- [x] **Step 3: Define media and delivery gates**
+
+Require an explicit storage decision at 50 MiB, prohibit ordinary Git blobs at GitHub's 100 MiB limit, and verify the complete delivery package including provenance, rights, and hashes.
+
+- [x] **Step 4: Add minimal skill routing**
+
+Route worktree setup, root-cause diagnosis, behavior-change TDD, and final verification without adding duplicate process stages.

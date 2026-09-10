@@ -29,8 +29,9 @@
 ### 文字卡片生成器
 
 ```powershell
-Set-Location D:\sp\01_工具\文字卡片生成器
+Push-Location .\01_工具\文字卡片生成器
 python .\make_video.py
+Pop-Location
 ```
 
 默认读取 `script.txt` 和 `assets`，输出到 `output\video.mp4`。
@@ -38,8 +39,9 @@ python .\make_video.py
 ### 存在主义漫剧项目
 
 ```powershell
-Set-Location D:\sp\02_项目\存在主义项目
+Push-Location .\02_项目\存在主义项目
 python .\manju.py --out .\output\存在主义短片.mp4
+Pop-Location
 ```
 
 ### 正式交付
@@ -55,5 +57,5 @@ python .\manju.py --out .\output\存在主义短片.mp4
 - 新视频在 `02_项目\项目名_日期` 中建立独立目录。
 - 项目内至少分为 `assets`、`audio/bgm`、`output` 和 `work`。
 - `output` 只放准备交付的结果；过程帧、临时音频和预览版放 `work`。
-- 完成后将交付包复制或移动到 `03_交付`，保留脚本、字幕和素材来源说明。
+- 完成后将确认过的交付包复制到 `03_交付`，保留 `02_项目` 中的项目事实源，并附带脚本、字幕和素材来源说明。
 - 未确认是否可删的内容放入 `90_归档`，不要直接删除。
