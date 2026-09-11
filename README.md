@@ -44,9 +44,19 @@ python .\manju.py --out .\output\存在主义短片.mp4
 Pop-Location
 ```
 
+### 乘风入山海 · 国风动画短片
+
+```powershell
+Push-Location .\02_项目\乘风入山海_20260911
+Get-Content .\Seedance2.5_创作执行稿.md
+Pop-Location
+```
+
+当前本地静态运镜版未通过用户验收，不属于正式交付；最终方向为无旁白、无 TTS 的 Seedance 2.5 真动态版本。
+
 ### 正式交付
 
-`03_交付\AI判断权_20260909\output\AI判断权_最终成片.mp4`
+- `03_交付\AI判断权_20260909\output\AI判断权_最终成片.mp4`
 
 ### 开源视频流调研
 
