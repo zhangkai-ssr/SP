@@ -44,9 +44,18 @@ python .\manju.py --out .\output\存在主义短片.mp4
 Pop-Location
 ```
 
+### 乘风入山海 · 国风动画短片
+
+```powershell
+Push-Location .\02_项目\乘风入山海_20260911
+python ..\存在主义项目\manju.py --script .\漫剧脚本.json --out .\output\乘风入山海.mp4
+Pop-Location
+```
+
 ### 正式交付
 
-`03_交付\AI判断权_20260909\output\AI判断权_最终成片.mp4`
+- `03_交付\AI判断权_20260909\output\AI判断权_最终成片.mp4`
+- `03_交付\乘风入山海_20260911\output\乘风入山海.mp4`
 
 ### 开源视频流调研
 
