@@ -2,7 +2,7 @@
   "title": "乘风入山海",
   "size": [1920, 1080],
   "fps": 30,
-  "engine": "offline",
+  "engine": "none",
   "bgm": "bgm/ambient.wav",
   "tail_pad": 0.45,
   "voices": {
