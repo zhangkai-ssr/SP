@@ -1,39 +1,22 @@
-# Python
-__pycache__/
-*.py[cod]
+# 子项目的 Git 元数据只在本地保留
+.git
+
+# 本地依赖、隔离工作区与缓存
 .venv/
 venv/
-
-# Local editor / operating system files
-.idea/
-.vscode/
+node_modules/
+__pycache__/
+*.py[cod]
+.WORKTREE/
+.worktrees/
 .DS_Store
 Thumbs.db
 
-# Isolated feature worktrees
-.WORKTREE/
-
-# Secrets and local configuration
+# 密钥与本机环境；保留已核对的前端构建配置
 .env
 .env.*
 !.env.example
-config.toml
-
-# Generated output and caches
-01_工具/文字卡片生成器/output/
-02_项目/*/work/
-02_项目/*/_tmp/
-02_项目/*/output/_tmp/
-02_项目/*/output/*.mp4
-02_项目/*/output/*.wav
-02_项目/*/output/*.mp3
-03_交付/*/work/
-03_交付/*/_tmp/
-03_交付/*/output/_tmp/
-
-# Local research clones can be restored from the commit IDs in the report.
-05_研究参考/**/repos/
-
-# Historical binaries and disposable intermediate files are kept locally only.
-90_归档/*
-!90_归档/README.md
+!.env.sample
+!.env.template
+!AUTO/sau_frontend/.env.development
+!AUTO/sau_frontend/.env.production

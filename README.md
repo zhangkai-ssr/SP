@@ -1,76 +1,17 @@
 # SP 视频工作区
 
-这是 `D:\sp` 的总入口。视频工具、在制项目、正式交付、研究参考和历史过程文件已经分区保存。
+本仓库对应本地 `D:\sp`，按现有目录层级保存以下项目。
 
-## 开始工作前
-
-1. 阅读 [AGENTS.md](AGENTS.md)，确认目录边界、Git 协作方式和对应的验证门禁。
-2. 阅读 [plan.md](plan.md)，确认外部服务状态、正式验收和重要未决风险。
-3. 再进入目标工具或项目，阅读其 README、分镜和素材来源说明。
-
-小型文档和索引修订可以直接在 `main` 完成；Python 工具、渲染行为、分镜格式、质检门禁或正式成片变更使用 `.WORKTREE/<purpose>` 隔离开发和 PR 审查。详细规则以 `AGENTS.md` 为准。
-
-## 目录导航
-
-| 目录 | 用途 | 是否建议修改 |
+| 目录 | 内容 | 来源 |
 |---|---|---|
-| `01_工具` | 可复用的视频生成和语音辅助工具 | 可以 |
-| `02_项目` | 当前及后续视频项目 | 可以 |
-| `03_交付` | 已完成的正式成片与交付资料 | 尽量只读 |
-| `05_研究参考` | 开源项目和调研报告 | 作为参考，避免直接混入生产项目 |
-| `90_归档` | 历史输出、缓存、安装包和待分类素材 | 确认后再清理 |
+| [mySP](mySP/README.md) | 自有视频工具、项目、交付与研究资料 | 原 SP 仓库内容 |
+| [AUTO](AUTO/README.md) | 社交平台自动上传工具 | [social-auto-upload](https://github.com/dreammis/social-auto-upload) |
+| [NarratoAI](NarratoAI/README.md) | AI 视频创作工具 | [NarratoAI](https://github.com/linyqh/NarratoAI) |
+| [PV](PV/README.md) | Pixelle Video 视频生成工具 | [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) |
+| [ai-promo-video-maker](ai-promo-video-maker/README.md) | 产品宣传视频制作器 | [ai-promo-video-maker](https://github.com/liyupi/ai-promo-video-maker) |
 
-跨项目实施方案保存在 `docs/`；隔离开发目录 `.WORKTREE/` 由 Git 忽略，不属于交付内容。
+原 SP 仓库历史保留，原根目录内容现位于 `mySP/`。各第三方项目保留自己的许可证与说明。
 
-当前跨项目方案：
+统一提交和推送时，在 `D:\sp` 根目录操作。子项目原有的 Git 元数据保留在本地，不上传到本仓库；远端保存完整文件，不使用 Git 子模块。
 
-- [《一砭一道》AI 短视频起号制作流程](docs/一砭一道_AI短视频起号制作流程.md)：《道德经》现代寓言与砭法文化故事的选题、生产、成本、合规和复盘方案。
-- [《无名医馆夜话》故事驱动型起号方案](docs/无名医馆_故事驱动起号方案.md)：以故事、旁白和少量静态画面为核心的低成本栏目、连续剧情、首月发布和复盘方案。
-
-详细迁移说明见 `整理方案与迁移记录.md`。
-
-## 当前可用入口
-
-### 文字卡片生成器
-
-```powershell
-Push-Location .\01_工具\文字卡片生成器
-python .\make_video.py
-Pop-Location
-```
-
-默认读取 `script.txt` 和 `assets`，输出到 `output\video.mp4`。
-
-### 存在主义漫剧项目
-
-```powershell
-Push-Location .\02_项目\存在主义项目
-python .\manju.py --out .\output\存在主义短片.mp4
-Pop-Location
-```
-
-### 乘风入山海 · 国风动画短片
-
-```powershell
-Push-Location .\02_项目\乘风入山海_20260911
-Get-Content .\Seedance2.5_创作执行稿.md
-Pop-Location
-```
-
-当前本地静态运镜版未通过用户验收，不属于正式交付；最终方向为无旁白、无 TTS 的 Seedance 2.5 真动态版本。
-
-### 正式交付
-
-- `03_交付\AI判断权_20260909\output\AI判断权_最终成片.mp4`
-
-### 开源视频流调研
-
-`05_研究参考\开源视频流调研_20260910\成熟视频创作流水线调研.md`
-
-## 工作约定
-
-- 新视频在 `02_项目\项目名_日期` 中建立独立目录。
-- 项目内至少分为 `assets`、`audio/bgm`、`output` 和 `work`。
-- `output` 只放准备交付的结果；过程帧、临时音频和预览版放 `work`。
-- 完成后将确认过的交付包复制到 `03_交付`，保留 `02_项目` 中的项目事实源，并附带脚本、字幕和素材来源说明。
-- 未确认是否可删的内容放入 `90_归档`，不要直接删除。
+遵循各项目原有忽略规则，不提交虚拟环境、依赖目录、缓存、本地密钥与已忽略的生成物。前端 `.env.development` 和 `.env.production` 为不含密钥的构建配置，保留在仓库中。
