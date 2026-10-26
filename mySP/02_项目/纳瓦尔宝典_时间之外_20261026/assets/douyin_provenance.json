@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-26",
+  "supplier": "OpenAI",
+  "tool": "built-in image_gen.imagegen",
+  "model": "not returned by tool",
+  "remote_task_id": null,
+  "prompts": [
+    {
+      "key": "naval_avatar",
+      "prompt": "Use case: stylized-concept. Create ONE polished square 1:1 social profile avatar, 1024x1024 composition, for the Chinese pixel storytelling series 时间之外. Input image 1 is a CHARACTER IDENTITY reference sheet; use the SAME young clock repairer, tousled dark brown hair, warm expressive brown eyes, ochre shirt and dark teal apron. Input image 2 is a STYLE AND COLOR reference from the actual video; do not reproduce its UI, words, layout or screenshot. Make an original large head-and-shoulders portrait of the character facing the viewer with a small thoughtful friendly smile, holding a small brass pocket watch near his chest. Premium crisp 16-bit pixel illustration, expressive clear face, stepped pixel shapes, restrained rich navy, teal, warm cream and honey-gold palette. Plain deep navy circular medallion with a thin elegant golden clock-face ring BEHIND the character, within a square deep navy background. Face is the focal point and takes at least 55 percent of image height, minimal clutter. Keep hair, face, shoulders and pocket watch inside central 76 percent circular crop-safe area. Strong recognizable silhouette at tiny 48px avatar size. Warm rim light, refined game art, intentional clean pixel edges, no smooth photorealism. NO text, NO lettering, NO logo, NO watermark, NO interface, NO collage. Opaque background."
+    },
+    {
+      "key": "naval_cover",
+      "prompt": "Use case: ads-marketing. Create ONE finished premium portrait 9:16 Douyin video COVER POSTER, target composition 1080x1920, for the original pixel animated short 《纳瓦尔宝典·把时间拿回来》. Input image 1 is character identity reference only: preserve the SAME original young watch repairer with tousled dark brown hair, ochre rolled-sleeve shirt, teal apron, navy trousers. Input image 2 is the video style/color reference: preserve its warm clockmaker workshop, indigo harbor at night, brass clocks, navy-teal-honey-gold mood. Do NOT copy screenshot UI, subtitles or small headers. Design a striking coherent NEW vertical illustrated poster, not a screenshot or collage. Center-lower portion: the repairer, shown from knee up, confident calm face, holding an open teal book in one hand and a small glowing brass pocket watch in the other; books and clockwork symbolize reusable knowledge. Behind him: one magnificent oversized brass clock face, softly glowing clock hands, a few crisp pixel gears, workshop details framing sides and distant blue harbor window. Charming sophisticated crisp 16-bit game pixel art with stepped outlines, rich controlled colors, cinematic amber against deep blue. Strong hierarchy, legible at thumbnail size, avoid busy detail behind text. Put text in upper-middle with roomy side margins: small clear Chinese book label exactly “《纳瓦尔宝典》”; below it two massive bold clean Chinese title lines exactly “把时间” then “拿回来”, warm ivory first line and luminous honey-gold second line, dark navy stroke and restrained shadow. Add one modest subordinate line exactly “专长 · 杠杆 · 长期积累”. Add tiny series name exactly “时间之外” near the top. All Chinese text must be correct, not pseudo-glyphs. Reserve top 8 percent and bottom 12 percent as uncluttered breathing room; keep title and face within central 80 percent of width and 78 percent of height so cropping is forgiving. NO additional words, no income numbers, no banknotes, no platform logo, no watermarks, no app UI, no photorealism, no gratuitous glow overload. Opaque background."
+    }
+  ],
+  "outputs": [
+    {
+      "file": "抖音头像.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c3e609f855e9fce16566ae6f693a42063027d65b311be257efddbb9a9f657f2a"
+    },
+    {
+      "file": "视频封面_竖版.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "8244fc6f8fa63823c4a3f53643c3d11a264c0c6623936540d301fe1f2f51635a"
+    }
+  ],
+  "visual_check": "已检查人物一致性、头像主体位置和封面中文；未在抖音实际上传或测试裁切。"
+}

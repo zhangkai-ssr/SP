@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen.imagegen",
+  "model": "not returned by tool",
+  "request": "将视频封面改为横向展示",
+  "prompt": "Use case: compositing / layout adaptation. EDIT the attached original cover into a finished WIDE LANDSCAPE 16:9 video thumbnail, intended canvas 1920x1080. The user needs a HORIZONTAL cover, so completely recompose the poster for landscape, do not place a vertical poster within a wide background and do not simply crop. Keep the original character's identity, brown hair, ochre shirt, teal apron, open teal book and brass pocket watch. Keep the same premium crisp pixel-game illustration, navy/teal/honey-gold palette and clockmaker workshop at blue hour. Arrange the LEFT 55 percent as bold clean text on restrained dark navy; RIGHT 40 percent shows a LARGE chest-up portrait of the same friendly young repairer holding pocket watch and open book, with a magnificent gold clock face behind him, subtle workshop details and harbor window. Character face and clock must be clearly readable in landscape. Exact Chinese text: small series name “时间之外” near top left; medium book label “《纳瓦尔宝典》”; enormous two-line main title “把时间” then “拿回来”; modest subtitle below “专长 · 杠杆 · 长期积累”. Preserve all Chinese wording accurately. Main title should dominate left side, white/cream for first line and warm gold for second, dark outline. Keep ALL essential text, face, watch and book within the central 85 percent of image width and middle 80 percent of image height; generous margins so horizontal display crops do not cut the content. Elegant high-contrast hierarchy, substantial large typography legible at thumbnail size. Entire output must be landscape 16:9, edge-to-edge illustration, NO vertical inset, NO collage, NO app interface, NO watermark, NO added words, NO money claims.",
+  "file": "视频封面_横版.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "1f56a43b9464ab354b556e83005db93152b8f1744f51e890d3f8392eda334cea",
+  "check": "横向构图、标题与人物完整；未在抖音实际上传测试。"
+}
