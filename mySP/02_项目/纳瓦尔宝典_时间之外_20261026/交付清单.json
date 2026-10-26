@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "date": "2026-10-26",
+  "status": "local_candidate_douyin_publication_not_independently_verified",
+  "repository": "zhangkai-ssr/SP",
+  "release_tag": "naval-time-20261026-v1",
+  "assets": [
+    {
+      "file": "naval-time-film.mp4",
+      "bytes": 11775683,
+      "sha256": "105fda27b411bf96e4520a4e119ae97b081322eb7795a9f1b2d37f5ec96b5118",
+      "download_url": "https://github.com/zhangkai-ssr/SP/releases/download/naval-time-20261026-v1/naval-time-film.mp4"
+    },
+    {
+      "file": "naval-time-project.zip",
+      "bytes": 26295110,
+      "sha256": "ba148952853a57a93297b30de0fbca5ffe2e5f4652cc773ff7473b4838418c57",
+      "download_url": "https://github.com/zhangkai-ssr/SP/releases/download/naval-time-20261026-v1/naval-time-project.zip"
+    },
+    {
+      "file": "naval-time-social-assets.zip",
+      "bytes": 6262822,
+      "sha256": "73ef356c9557ce663ad5d763ed44dea7ad4f698c3e976403ff0943a3e6083658",
+      "download_url": "https://github.com/zhangkai-ssr/SP/releases/download/naval-time-20261026-v1/naval-time-social-assets.zip"
+    }
+  ],
+  "video": {
+    "seconds": 260.476,
+    "width": 1280,
+    "height": 720,
+    "fps": 24
+  },
+  "current_cover": "assets/douyin_cover.png",
+  "cover_preference": "portrait_for_future_videos",
+  "storyboard_sha256": "d138680845620683652ddab7e02897d29d6d4d867a5c54bc1aa864e30cf24c51"
+}
