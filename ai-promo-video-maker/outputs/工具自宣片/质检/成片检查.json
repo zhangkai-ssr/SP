@@ -1,0 +1,39 @@
+{
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuvj420p",
+        "r_frame_rate": "30/1",
+        "nb_frames": "1350",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_frames": "2112"
+      }
+    ],
+    "format": {
+      "duration": "45.056000"
+    }
+  },
+  "full_decode": "PASS",
+  "black_interval_over_0.1s": "NONE",
+  "silent_interval_over_1s": "NONE",
+  "render_log": "PASS",
+  "sampled_frames_reviewed": 60,
+  "generation_api_calls": 0,
+  "music_lufs": -14.1,
+  "true_peak_dbfs": -0.5
+}

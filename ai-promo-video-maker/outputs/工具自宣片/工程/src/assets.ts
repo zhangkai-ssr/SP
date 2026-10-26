@@ -1,0 +1,20 @@
+export const ASSETS = [
+  "audio/mix.wav",
+  "img/logo.svg",
+  "cases/case-01.jpg",
+  "cases/case-02.jpg",
+  "cases/case-03.jpg",
+  "cases/case-04.jpg",
+  "cases/case-05.jpg",
+  "cases/case-06.jpg",
+  "cases/case-07.jpg",
+  "cases/case-08.jpg",
+  "shots/repo.jpg",
+  "shots/options.jpg",
+  "shots/studio.jpg",
+  "shots/check.jpg",
+  "styles/style-A.jpg",
+  "styles/style-B.jpg",
+  "styles/style-C.jpg",
+  "styles/style-D.jpg"
+];
