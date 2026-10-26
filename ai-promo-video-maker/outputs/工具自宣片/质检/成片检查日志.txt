@@ -1,0 +1,4 @@
+OK    视频 h264 1920x1080 @ 30/1，时长 45.06s，音频 aac
+OK    渲染日志无报错
+OK    响度 -14.1 LUFS，真峰值 -0.5 dBFS
+OK    抽帧联系表：D:\sp\ai-promo-video-maker\outputs\工具自宣片\工程\out\check_final-1080p.jpg

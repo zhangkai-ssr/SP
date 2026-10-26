@@ -1,0 +1,12 @@
+网页版/
+样帧/
+工程/node_modules/
+工程/out/
+工程/audio-src/*
+!工程/audio-src/.gitkeep
+工程/public/audio/*
+!工程/public/audio/.gitkeep
+工程/public/fonts/*
+!工程/public/fonts/.gitkeep
+工程/fonts-src/*
+!工程/fonts-src/.gitkeep

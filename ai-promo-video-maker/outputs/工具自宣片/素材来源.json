@@ -1,0 +1,124 @@
+{
+  "upstream": "https://github.com/liyupi/ai-promo-video-maker",
+  "upstream_commit": "279ba51",
+  "cases": [
+    {
+      "file": "cases/case-01.jpg",
+      "label": "编程导航",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-codenav.jpg",
+      "crop": [
+        2,
+        0,
+        962,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-02.jpg",
+      "label": "编程导航",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-codenav.jpg",
+      "crop": [
+        966,
+        0,
+        1926,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-03.jpg",
+      "label": "面试鸭",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-mianshiya.jpg",
+      "crop": [
+        2,
+        0,
+        962,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-04.jpg",
+      "label": "面试鸭",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-mianshiya.jpg",
+      "crop": [
+        966,
+        0,
+        1926,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-05.jpg",
+      "label": "鱼皮 AI 导航",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-ainav.jpg",
+      "crop": [
+        2,
+        0,
+        962,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-06.jpg",
+      "label": "鱼皮 AI 导航",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-ainav.jpg",
+      "crop": [
+        966,
+        0,
+        1926,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-07.jpg",
+      "label": "Vibe Coding 教程",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-vibe.jpg",
+      "crop": [
+        2,
+        0,
+        962,
+        540
+      ]
+    },
+    {
+      "file": "cases/case-08.jpg",
+      "label": "Vibe Coding 教程",
+      "width": 960,
+      "height": 540,
+      "source": "../../docs/images/case-vibe.jpg",
+      "crop": [
+        966,
+        0,
+        1926,
+        540
+      ]
+    }
+  ],
+  "music": {
+    "title": "Gimme that Groove!",
+    "id": "872",
+    "source_page": "https://mixkit.co/free-stock-music/tag/funk/",
+    "source_audio": "https://assets.mixkit.co/music/872/872.mp3",
+    "license": "https://mixkit.co/license/#musicFree",
+    "date": "2026-10-26",
+    "analysis_bpm": 112.35,
+    "atempo": 1.0681,
+    "source_offset_seconds": 5.0176,
+    "duration_seconds": 45,
+    "artist": "Michael Ramir C."
+  },
+  "generation_api_calls": 0
+}
