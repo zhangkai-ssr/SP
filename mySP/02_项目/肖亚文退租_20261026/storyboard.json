@@ -1,0 +1,400 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 273.45000000000005,
+  "status": "internal_preview",
+  "source_audio_used": false,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 15.206,
+      "title": "意外的赔偿",
+      "insight": "退租，为什么反而拿到赔偿？",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 186,
+          "duration": 3.8015
+        },
+        {
+          "source_start": 198,
+          "duration": 3.8015
+        },
+        {
+          "source_start": 223,
+          "duration": 3.8015
+        },
+        {
+          "source_start": 236,
+          "duration": 3.8015
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 15.206,
+      "end": 34.66,
+      "title": "接手一家公司",
+      "insight": "先弄清：你现在代表谁",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 25,
+          "duration": 4.863499999999999
+        },
+        {
+          "source_start": 42,
+          "duration": 4.863499999999999
+        },
+        {
+          "source_start": 66,
+          "duration": 4.863499999999999
+        },
+        {
+          "source_start": 122,
+          "duration": 4.863499999999999
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 34.66,
+      "end": 53.37,
+      "title": "这辆车属于谁",
+      "insight": "使用方便，不等于权属清楚",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 0,
+          "duration": 4.6775
+        },
+        {
+          "source_start": 8,
+          "duration": 4.6775
+        },
+        {
+          "source_start": 46,
+          "duration": 4.6775
+        },
+        {
+          "source_start": 53,
+          "duration": 4.6775
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 53.37,
+      "end": 72.776,
+      "title": "接手之前的那本账",
+      "insight": "借来的资源，也需要交代",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 74,
+          "duration": 4.8515
+        },
+        {
+          "source_start": 81,
+          "duration": 4.8515
+        },
+        {
+          "source_start": 92,
+          "duration": 4.8515
+        },
+        {
+          "source_start": 113,
+          "duration": 4.8515
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 72.776,
+      "end": 91.198,
+      "title": "退租的转折",
+      "insight": "先沟通，再处理具体约定",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 86,
+          "duration": 4.605499999999999
+        },
+        {
+          "source_start": 98,
+          "duration": 4.605499999999999
+        },
+        {
+          "source_start": 110,
+          "duration": 4.605499999999999
+        },
+        {
+          "source_start": 186,
+          "duration": 4.605499999999999
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 91.198,
+      "end": 115.14,
+      "title": "钱的流向变了",
+      "insight": "重新连接三方的需要",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 188,
+          "duration": 5.985500000000002
+        },
+        {
+          "source_start": 205,
+          "duration": 5.985500000000002
+        },
+        {
+          "source_start": 212,
+          "duration": 5.985500000000002
+        },
+        {
+          "source_start": 225,
+          "duration": 5.985500000000002
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 115.14,
+      "end": 133.058,
+      "title": "肖亚文多问了一句",
+      "insight": "先弄清：这笔好处从哪来",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 186,
+          "duration": 4.479499999999998
+        },
+        {
+          "source_start": 197,
+          "duration": 4.479499999999998
+        },
+        {
+          "source_start": 232,
+          "duration": 4.479499999999998
+        },
+        {
+          "source_start": 238,
+          "duration": 4.479499999999998
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 133.058,
+      "end": 155.104,
+      "title": "三方各有需要",
+      "insight": "场地 · 费用 · 关系",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 78,
+          "duration": 5.511500000000005
+        },
+        {
+          "source_start": 94,
+          "duration": 5.511500000000005
+        },
+        {
+          "source_start": 207,
+          "duration": 5.511500000000005
+        },
+        {
+          "source_start": 220,
+          "duration": 5.511500000000005
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 155.104,
+      "end": 172.71,
+      "title": "她的动作很具体",
+      "insight": "身份 → 沟通 → 追问",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 28,
+          "duration": 4.401499999999999
+        },
+        {
+          "source_start": 95,
+          "duration": 4.401499999999999
+        },
+        {
+          "source_start": 123,
+          "duration": 4.401499999999999
+        },
+        {
+          "source_start": 185,
+          "duration": 4.401499999999999
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 172.71,
+      "end": 193.652,
+      "title": "换个人，还会这样吗",
+      "insight": "把故事里的条件看完整",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 82,
+          "duration": 5.235499999999995
+        },
+        {
+          "source_start": 115,
+          "duration": 5.235499999999995
+        },
+        {
+          "source_start": 208,
+          "duration": 5.235499999999995
+        },
+        {
+          "source_start": 229,
+          "duration": 5.235499999999995
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 193.652,
+      "end": 209.434,
+      "title": "第一件值得学的事",
+      "insight": "把资产、借用和情面分清",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 9,
+          "duration": 3.9455000000000027
+        },
+        {
+          "source_start": 44,
+          "duration": 3.9455000000000027
+        },
+        {
+          "source_start": 76,
+          "duration": 3.9455000000000027
+        },
+        {
+          "source_start": 118,
+          "duration": 3.9455000000000027
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 209.434,
+      "end": 226.728,
+      "title": "第二件值得学的事",
+      "insight": "接受方便之前，问清原因",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 186,
+          "duration": 4.323500000000003
+        },
+        {
+          "source_start": 193,
+          "duration": 4.323500000000003
+        },
+        {
+          "source_start": 210,
+          "duration": 4.323500000000003
+        },
+        {
+          "source_start": 233,
+          "duration": 4.323500000000003
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 226.728,
+      "end": 242.774,
+      "title": "第三件值得学的事",
+      "insight": "决定，要能向别人交代",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 30,
+          "duration": 4.011499999999998
+        },
+        {
+          "source_start": 52,
+          "duration": 4.011499999999998
+        },
+        {
+          "source_start": 105,
+          "duration": 4.011499999999998
+        },
+        {
+          "source_start": 116,
+          "duration": 4.011499999999998
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 242.774,
+      "end": 256.588,
+      "title": "再回到这场退租",
+      "insight": "机会背后，也有人情与责任",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 92,
+          "duration": 3.4535000000000053
+        },
+        {
+          "source_start": 186,
+          "duration": 3.4535000000000053
+        },
+        {
+          "source_start": 200,
+          "duration": 3.4535000000000053
+        },
+        {
+          "source_start": 237,
+          "duration": 3.4535000000000053
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 256.588,
+      "end": 273.45000000000005,
+      "title": "把问题留给自己",
+      "insight": "你正在使用谁的资源？",
+      "source": "assets/source/退租候选.mp4",
+      "cuts": [
+        {
+          "source_start": 36,
+          "duration": 4.215500000000006
+        },
+        {
+          "source_start": 121,
+          "duration": 4.215500000000006
+        },
+        {
+          "source_start": 186,
+          "duration": 4.215500000000006
+        },
+        {
+          "source_start": 237,
+          "duration": 4.215500000000006
+        }
+      ]
+    }
+  ]
+}
