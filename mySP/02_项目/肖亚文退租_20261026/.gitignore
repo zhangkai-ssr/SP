@@ -1,0 +1,9 @@
+work/
+output/
+assets/source/*
+!assets/source/.gitkeep
+audio/*.mp3
+audio/*.wav
+audio/bgm/*.wav
+.venv/
+__pycache__/
