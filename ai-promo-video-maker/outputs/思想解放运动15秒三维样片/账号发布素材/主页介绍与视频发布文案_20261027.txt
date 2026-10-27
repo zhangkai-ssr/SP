@@ -1,0 +1,31 @@
+《思想解放运动》账号发布素材
+
+主页介绍
+把复杂的道理，讲成看得见的故事。
+三维动画｜认知成长｜生活方法
+少一点内耗，多一点行动。
+
+视频发布标题
+16个理论，把生活调回自己手里
+
+视频发布文案
+你有没有发现，收藏了很多道理，生活却还是老样子？
+
+这次，把睡眠、运动、学习、消费和数字生活，整理成了16个可以从日常开始尝试的思路。
+
+不用一天改变所有习惯。选一个今天就能做的小动作：早点放下手机，出门走一走，或者把想学的东西真正练一次。
+
+思想解放，不是想通了什么，而是开始做了什么。
+
+这16个里面，你最想先试哪一个？
+
+#思想解放运动 #认知成长 #三维动画 #知识分享 #行动力
+
+生成方式
+使用内置 image_gen 工具，参考本片白色三维角色生成头像和竖版封面。
+
+头像生成提示词
+Use case: stylized-concept. Create one square 1:1 premium Douyin profile avatar. Reference image is for the identity of the white 3D mascot only; ignore the original slide, Chinese lettering and stage. Preserve round oversized white vinyl head, two glossy dark oval eyes, tiny friendly curved smile, pink cheeks, simple white torso, golden collar and coral pink rounded hands. Chest-up portrait centered, holding a small open teal book. Remove the exercise headband. Deep midnight navy background, one elegant golden orbit behind the head and a tiny warm gold spark near the book suggest curiosity and knowledge. Cinematic soft 3D illumination with gentle gold edge light, clean vinyl toy materials, friendly intelligent personality, high contrast silhouette, polished and simple. Large readable face, entire head, hands and book inside central 76 percent of square so circular avatar crop retains all important details. No lettering, no watermark, no extra people, no clutter. Generate a finished single image.
+
+封面生成提示词
+Use case: ads-marketing. Create a finished PORTRAIT 9:16 Douyin video cover for a 3D knowledge animation called 思想解放运动. Reference is solely the identity of the white vinyl mascot: round white head, dark oval eyes, pink cheeks, coral round hands, gold collar. Ignore slide typography, exercise headband and lavender background. Design midnight navy with sophisticated warm gold lighting and teal accents. Strong highly legible Chinese typography occupying upper central part. Exact main title split into TWO lines: 思想解放 / 运动 . Large heavy ivory characters for 思想解放 and luminous gold characters for 运动. Smaller subtitle EXACTLY: 16个理论，把生活调回自己手里 . Subtitle can split after comma into two lines for readability. Main mascot centered lower-middle, stepping forward confidently with an open teal book and looking up toward a small golden spark. One sweeping golden orbit behind mascot gives depth and momentum; subtle distant blurred floating knowledge cards, spare and elegant. Premium high contrast dimensional render. All title, subtitle, face, hands and book within horizontal 12%-88% and vertical 17%-81% safe area, to survive centered 3:4 profile grid crop. Top 15% and bottom 15% primarily atmospheric background, no essential words there. No additional words, no labels, no watermark, no UI, no border. Composition must be naturally vertical, not a landscape cropped into portrait. Match the white gold navy teal avatar identity. One single finished portrait cover image.
