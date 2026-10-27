@@ -1,0 +1,35 @@
+{
+  "extraChars": "，。、！？：；“”‘’（）《》【】…—·￥←→↑↓✓×＋",
+  "fonts": [
+    {
+      "family": "PF",
+      "weight": "400",
+      "file": "PF-Regular",
+      "source": "system:PingFang#3|system:msyh#0|system:NotoSansCJK-Regular#2"
+    },
+    {
+      "family": "PF",
+      "weight": "500",
+      "file": "PF-Medium",
+      "source": "system:PingFang#7|system:msyh#0|system:NotoSansCJK-Medium#2"
+    },
+    {
+      "family": "PF",
+      "weight": "600",
+      "file": "PF-Semibold",
+      "source": "system:PingFang#11|system:msyhbd#0|system:NotoSansCJK-Bold#2"
+    },
+    {
+      "family": "Song",
+      "weight": "900",
+      "file": "Song-Heavy",
+      "source": "system:simsun#0"
+    },
+    {
+      "family": "Kai",
+      "weight": "900",
+      "file": "Kai-Heavy",
+      "source": "system:simkai#0"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "public/audio/mix.wav": {
+    "bytes": 2880078,
+    "sha256": "69fa1ae08dccfcdbd8ad3a1f17f75e035d83060887eb4916f2a7df8dbd148775"
+  },
+  "public/audio/continuation.wav": {
+    "bytes": 8160078,
+    "sha256": "6d516e61b1f89ef58c76f1b992d95ab215a3e8d4fd97ada5559e81713e2da757"
+  },
+  "public/audio/full.wav": {
+    "bytes": 23635278,
+    "sha256": "57100d37ad86464e46289b06a3a8bd542d8ecf86721e21c2daa82296e9b0df46"
+  },
+  "audio-src/reference-full-instrumental.wav": {
+    "bytes": 34398044,
+    "sha256": "4885ef33f480280dac8421e43655eda7d2202c9a2d83c0fe7b72ac988bf8ee7e"
+  },
+  "audio-src/reference-instrumental.wav": {
+    "bytes": 11466044,
+    "sha256": "8e329cea4acbeb4480dc0f12a99ad66cb568fe47a09d6dde27ccfcf7d70944e7"
+  },
+  "public/wall.png": {
+    "bytes": 1215134,
+    "sha256": "1f80254a1d564469983ecb91de24ca1475c44481f67171f6de06c646378eea00"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+out/
+audio-src/_*
+.env
+public/audio/*.wav
+public/fonts/*.woff2
+fonts-src/*
+!fonts-src/.gitkeep
+audio-src/*.wav
+.venv/
