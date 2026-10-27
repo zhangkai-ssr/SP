@@ -6,11 +6,11 @@
 
 [Release：thought-liberation-20261027-v1](https://github.com/zhangkai-ssr/SP/releases/tag/thought-liberation-20261027-v1)
 
-- [完整版 MP4](https://github.com/zhangkai-ssr/SP/releases/download/thought-liberation-20261027-v1/思想解放运动_完整版.mp4)：原交付文件，H.264、AAC、BT.709，约 118 MB；未为上传重新压缩。
-- [可编辑工程 ZIP](https://github.com/zhangkai-ssr/SP/releases/download/thought-liberation-20261027-v1/思想解放运动_可编辑工程.zip)：项目说明、完整源码、锁文件、时间线、所需画面、已混配音乐、用于重新对齐的分离伴奏，以及头像与封面。
+- [完整版 MP4](https://github.com/zhangkai-ssr/SP/releases/download/thought-liberation-20261027-v1/thought-liberation-full.mp4)：原交付文件，H.264、AAC、BT.709，约 118 MB；未为上传重新压缩。
+- [可编辑工程 ZIP](https://github.com/zhangkai-ssr/SP/releases/download/thought-liberation-20261027-v1/thought-liberation-project.zip)：项目说明、完整源码、锁文件、时间线、所需画面、已混配音乐、用于重新对齐的分离伴奏，以及头像与封面。
 - [SHA256SUMS.txt](https://github.com/zhangkai-ssr/SP/releases/download/thought-liberation-20261027-v1/SHA256SUMS.txt)：校验上述两个下载文件。Windows 可用 `Get-FileHash -Algorithm SHA256 -LiteralPath '下载文件路径'` 比对。
 
-仓库保存可审阅源码和预览图；大型成片及配乐随 Release 交付。工程包没有 `node_modules`、缓存、系统字体文件、原始参考视频或参考 PDF。字体在本机生成，步骤如下。
+Release 附件使用英文文件名，避免 GitHub 改写中文下载名；工程包内部仍使用中文目录。仓库保存可审阅源码和预览图；大型成片及配乐随 Release 交付。工程包没有 `node_modules`、缓存、系统字体文件、原始参考视频或参考 PDF。字体在本机生成，步骤如下。
 
 ![完整分镜预览](完整分镜预览.jpg)
 
