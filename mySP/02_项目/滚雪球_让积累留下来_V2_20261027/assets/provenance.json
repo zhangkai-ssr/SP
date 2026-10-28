@@ -1,0 +1,38 @@
+[
+  {
+    "file": "bench.png",
+    "bytes": 2688459,
+    "sha256": "a6a015dc6396a36d7fd2b836e82a6f8dbc1fa6ec3895f447f3ff60ae008f941c",
+    "source": "OpenAI built-in imagegen 2026-10-27"
+  },
+  {
+    "file": "character_sheet.png",
+    "bytes": 2076243,
+    "sha256": "b9095a5cebc4325ec7880b6dcaf3fb90f49ee08f24728d4051ef83308e12b29f",
+    "source": "reused original project"
+  },
+  {
+    "file": "cover.png",
+    "bytes": 2729378,
+    "sha256": "9d0aee6ca721706bb8f7d401d61777c3887b12f61ee4676b8ab838a1a49dffa1",
+    "source": "OpenAI built-in imagegen 2026-10-27"
+  },
+  {
+    "file": "street.png",
+    "bytes": 3282409,
+    "sha256": "75b8e838e6b6ba8f8f214d3e6c5864d16d099fd064e36fcb7a2f93403ec26cbc",
+    "source": "OpenAI built-in imagegen 2026-10-27"
+  },
+  {
+    "file": "watch.png",
+    "bytes": 1557549,
+    "sha256": "43efd813e63e684dd26582dc63e4e21f283c93bd1c086bc5706fece045792b99",
+    "source": "OpenAI built-in imagegen 2026-10-27"
+  },
+  {
+    "file": "workshop.png",
+    "bytes": 2036145,
+    "sha256": "118e3ba5892a8ae720472aaf51c85658bb14ea128ea39bbe9006792bc6a71913",
+    "source": "reused original project"
+  }
+]

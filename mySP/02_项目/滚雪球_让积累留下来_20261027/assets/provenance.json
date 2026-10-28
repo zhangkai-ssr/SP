@@ -1,0 +1,24 @@
+[
+  {
+    "file": "workshop.png",
+    "supplier": "OpenAI",
+    "tool": "built-in image_gen.imagegen",
+    "model": "not returned by tool",
+    "remote_task_id": null,
+    "generated_date": "2026-10-26",
+    "prompt": "Use case: illustration-story. Generate one original 16:9 landscape pixel-art background for an animated educational short about a watch repairer learning to create reusable work. A beautifully composed cozy clockmaker's workshop at blue hour, viewed straight-on like a premium 1990s point-and-click adventure game. Big arched window on the right shows a deep indigo harbor city and a glowing crescent moon, elegant wood shelves with brass clocks and hanging tiny tools on left, warm amber desk lamp, dark teal walls, aged warm wooden workbench runs along lower quarter. Central foreground has ample uncluttered dark teal floor area for a separately animated pixel character and props. Detailed but restrained crisp pixel clusters, limited 32 color palette, navy/teal/copper/honey gold, cinematic warm-cool contrast, tasteful flat shadow shapes, no blurry textures, no photorealism, no smooth 3D rendering. No people, no letters, no numbers, no logos, no captions, no watermarks. Professional cohesive game environment, charming artisan atmosphere. Keep important environment above bottom 15 percent (subtitle safe space). This is a background asset, not a poster or a collage.",
+    "transparent_background": false,
+    "sha256": "118e3ba5892a8ae720472aaf51c85658bb14ea128ea39bbe9006792bc6a71913"
+  },
+  {
+    "file": "character_sheet.png",
+    "supplier": "OpenAI",
+    "tool": "built-in image_gen.imagegen",
+    "model": "not returned by tool",
+    "remote_task_id": null,
+    "generated_date": "2026-10-26",
+    "prompt": "Use case: illustration-story. Asset type: transparent PNG sprite sheet for an original educational pixel-art animated short. One clean evenly spaced 4 columns x 2 rows sprite sheet, eight full body sprites of the SAME ORIGINAL young Chinese clock repairer character: tousled dark brown hair, round simple expressive face, teal work apron over ochre rolled-sleeve shirt, dark navy trousers, brown boots. Charming premium 16-bit adventure game pixel art with crisp stepped edges, small palette, gentle amber highlights. Every frame same scale, feet aligned to bottom of its cell, entire body including hands and boots visible, NO overlap, big transparent gutters. Row 1 left to right: neutral standing facing slightly right; walking pose left foot forward; walking pose right foot forward; thoughtfully holding chin. Row 2: holding a small blank open book; pointing right with arm raised; working with a tiny brass watch held in hands; sitting asleep, knees bent and head resting on hands. Consistent proportions and face across all eight cells. Four columns, two rows exactly. Each sprite stays strictly within central 65 percent of its cell so slicing into eight equal rectangles works. Fully transparent background, no ground, no props except described, no shadow outside sprite, no text, no numbers, no grid lines, no borders, no labels. This character must be original and visually distinct from any famous TV character.",
+    "transparent_background": true,
+    "sha256": "b9095a5cebc4325ec7880b6dcaf3fb90f49ee08f24728d4051ef83308e12b29f"
+  }
+]
