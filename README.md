@@ -9,8 +9,11 @@
 | [NarratoAI](NarratoAI/README.md) | AI 视频创作工具 | [NarratoAI](https://github.com/linyqh/NarratoAI) |
 | [PV](PV/README.md) | Pixelle Video 视频生成工具 | [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) |
 | [ai-promo-video-maker](ai-promo-video-maker/README.md) | 产品宣传视频制作器 | [ai-promo-video-maker](https://github.com/liyupi/ai-promo-video-maker) |
+| [vibe-knowledge-video](vibe-knowledge-video/README.md) | 知识短视频创作规范、Canvas 模板与渲染脚本 | [vibe-knowledge-video](https://github.com/xiazhuo123456789/vibe-knowledge-video) |
 
 原 SP 仓库历史保留，原根目录内容现位于 `mySP/`。各第三方项目保留自己的许可证与说明。
+
+`vibe-knowledge-video/` 收录上游 `e28759c5f4876c3e5e68444b3ed57e1c1991df18`（v2.4.0）的完整文件快照；原许可证、致谢与研究资料的使用说明均予保留。该项目偏重知识讲解与分镜设计，`ai-promo-video-maker/` 提供产品宣传工作流和 Remotion 工程，两者可按题材选用。
 
 统一提交和推送时，在 `D:\sp` 根目录操作。子项目原有的 Git 元数据保留在本地，不上传到本仓库；远端保存完整文件，不使用 Git 子模块。
 
